@@ -13,3 +13,8 @@ class Calculator:
         mes = f"{a} * {b} = {a * b}"
         print(mes)
         return a * b
+
+    def divide(self, a, b):
+        mes = f"{a} / {b} = {a / b}"
+        print(mes)
+        return a / b
