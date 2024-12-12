@@ -15,6 +15,8 @@ class Calculator:
         return a * b
 
     def divide(self, a, b):
-        mes = f"{a} / {b} = {a / b}"
-        print(mes)
-        return a / b
+        if b:
+            mes = f"{a} / {b} = {a / b}"
+            print(mes)
+            return a / b
+        print("You can`t divide by zero")
