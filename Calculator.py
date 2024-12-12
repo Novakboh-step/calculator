@@ -8,3 +8,8 @@ class Calculator:
         mes = f"{a} - {b} = {a - b}"
         print(mes)
         return a - b
+
+    def multiply(self, a, b):
+        mes = f"{a} * {b} = {a * b}"
+        print(mes)
+        return a * b
